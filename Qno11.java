@@ -1,5 +1,3 @@
-package zohoinc;
-
 import java.util.Scanner;
 
 /*11.The hiring team aims to find 3 candidates who are great collectively.
@@ -20,7 +18,8 @@ Output: -90
 Explanation:
 Multiplication of -3, -5 and -6 is -90.
 */
-public class Qno11 {
+
+public class Qno11{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n =sc.nextInt();
@@ -43,11 +42,6 @@ public class Qno11 {
 		int sum=arr[0]*arr[1]*arr[2];
 		System.out.println(sum);
 		
-		
-		
-		
-		
-
-}
 }
 
+}
